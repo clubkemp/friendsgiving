@@ -6,9 +6,9 @@ const sheetUrls = {
   'Friends' : 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS2kq9Q5Z6bltWH4SCZFoLkX4xj0inRho7SKGUcN7rR_ZmmtW6U83HoKWCh-_WNi-arYTcBQ-zJTuaC/pub?gid=0&single=true&output=csv',
 }
 const mapInfo = {
-  'lat' : 48.753331,
+  'lat' : 48.763600,
   'long' : -122.476487,
-  'zoom' : 13,
+  'zoom' : 14,
 }
 
 // O: KEEP
@@ -179,7 +179,7 @@ const addGeoJsonLayers = (arr) =>{
       pointToLayer: function (feature, latlng) {
         const myIcon = L.icon({
           iconUrl: 'restaurant-15.svg',
-          iconSize: [20, 20],
+          iconSize: [30, 30],
         });
         let color = feature.properties.color;
         let newColor = color.replace('#','colorHex'); 
