@@ -4,6 +4,7 @@
 //replace each one using format 'layer name': 'CSV_link'
 const sheetUrls = {
   'Friends' : 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS2kq9Q5Z6bltWH4SCZFoLkX4xj0inRho7SKGUcN7rR_ZmmtW6U83HoKWCh-_WNi-arYTcBQ-zJTuaC/pub?gid=0&single=true&output=csv',
+  'Route' : 'https://docs.google.com/spreadsheets/d/e/2PACX-1vS2kq9Q5Z6bltWH4SCZFoLkX4xj0inRho7SKGUcN7rR_ZmmtW6U83HoKWCh-_WNi-arYTcBQ-zJTuaC/pub?gid=1389646946&single=true&output=csv'
 }
 const mapInfo = {
   'lat' : 48.763600,
